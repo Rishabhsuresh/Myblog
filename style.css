@@ -49,7 +49,7 @@ parallax-inner {
 #name {
     font-size: 30px;
     line-height: 1.2;
-     font-family: 'Uchen', serif;
+    font-family: 'Uchen', serif;
 }
 
 #bio {
@@ -75,7 +75,7 @@ p {
 .menu {
     list-style: none;
     font-family: sans-serif;
-    position: absolute;
+    position: fixed;
     top: 10px;
     right: 30px;
     z-index: 10;
@@ -95,4 +95,32 @@ p {
 
 .links:hover {
     background-color: dodgerblue;
+}
+
+a {
+    text-decoration-color: aqua;
+
+}
+
+.article:hover {
+    color: coral;
+}
+
+.links:hover {
+    background-color: aquamarine;
+}
+
+.links {
+    float: left;
+    color: fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px
+}
+
+html {
+    scroll-behavior: smooth;
 }
