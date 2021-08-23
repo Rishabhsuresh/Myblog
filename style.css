@@ -11,7 +11,7 @@
 }
 
 input {
-    background: grey
+    background: grey;
 }
 
 .travel_mainDiv {
@@ -66,4 +66,32 @@ input {
 
 .environment_li p {
     margin-top: 10px;
+}
+
+.header_entrepreneur {
+    line-height: 2;
+}
+
+.book {
+    cursor: pointer;
+}
+
+.book hr {
+    margin-bottom: 10px;
+}
+
+.modal-content {
+    margin-top: 100px;
+}
+
+.img_modal {
+    display: inline-block;
+}
+
+.p_modal {
+    margin-top: 10px;
+}
+
+.modal-body {
+    text-align: center
 }
